@@ -1,0 +1,54 @@
+
+div.material-time-picker {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    float: left;
+}
+div.material-time-picker .time {
+    float: left;
+}
+div.material-time-picker md-select {
+    display: inline-block;
+    margin: 4px 10px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+div.material-time-picker md-select .md-select-icon {
+    width: 10px;
+    margin-right: 0;
+}
+
+div.material-time-picker md-select .md-select-icon:after {
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+div.material-time-picker md-select md-select-value {
+    border-bottom: none !important;
+    padding: 0px;
+    min-width: auto;
+}
+
+div.material-time-picker md-select md-select-value>span:not(.md-select-icon) {
+    flex: none;
+    width: 25px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+
+span.meridian {
+    padding: 9px;
+    float: left;
+    background: #f2f2f2;
+    cursor: pointer;
+    border-left: 1px solid #d9d9d9;
+}
+
+.time-value {
+    float: left;
+}
