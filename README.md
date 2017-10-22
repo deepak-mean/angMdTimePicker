@@ -8,6 +8,35 @@ You can also set the steps for minutes to skip and also set any timezone to set 
 
 See a working demo here [Demo](https://codepen.io/deepak-mean/pen/EwJwwR)
 
+
+# Dependencies
+
+1. [AngularJS ( 1.5 and above)](https://angularjs.org/#)
+2. [Angular Material](https://material.angularjs.org/latest)
+3. [Moment.js](https://momentjs.com)
+4. [Moment-Timezone](https://momentjs.com/timezone/docs/) 
+
+```
+...
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+...
+...
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.13/moment-timezone-with-data.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+...
+...
+```
+
+
 # How To Use
 
 
