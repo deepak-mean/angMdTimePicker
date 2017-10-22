@@ -56,7 +56,7 @@ Include CSS and JS files in yout html file
 <script type="text/javascript" src="/path/to/repo/dist/angMdTimePicker.js"></script>
 ```
 
-Inlcude `angMdTimePicker` module dependency in your application
+Include `angMdTimePicker` module dependency in your application
 
 ```
   angular.module('myApp', ['ngMaterial', 'andMdTimePicker']);
@@ -73,7 +73,7 @@ Use the directive in html
 `time` is scope variable which is a date object .
 
 ### on-change
-You can also pass a `on-change` options i.e. a function to be called on every change ( hours/minutes)
+You can also pass a `on-change` option i.e. a function to be called on every change ( hours/minutes)
 
 ```
 <ang-md-time-picker ng-model="time" on-change = "changeTime" ng-click="$event.stopPropagation()"></ang-md-time-picker>
@@ -89,7 +89,7 @@ You can also set the skip value for minutes.i.e. to skip the minutes to select. 
 ```
 
 ### timezone
-You can pass the timezone to set time according to any specific timezone otherwise it will use default browser tiemzone using moment-timezone.
+You can pass the timezone to set time according to any specific timezone otherwise it will use default browser timezone using moment-timezone.
 
 ```
 <ang-md-time-picker ng-model="time" on-change="changeTime" step="step" timezone="timezone" ng-click="$event.stopPropagation()"></ang-md-time-picker>
@@ -110,3 +110,7 @@ angular.module('myApp').controller('mainCtrl',['$scope',function($scope) {
     }
 }]);
 ```
+
+
+
+
