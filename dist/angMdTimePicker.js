@@ -26,7 +26,7 @@
             require: 'ngModel',
             replace: true,
             scope: {
-                step: "=",
+                step: "=?",
                 timezone: "=?",
                 onChange: "=?"
             },
