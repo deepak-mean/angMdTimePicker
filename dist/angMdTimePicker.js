@@ -109,6 +109,12 @@
                     setInitialValue();
 
                 });
+             
+                scope.$watch('timezone', function(value, oldValue) {
+                    scope.timezone = value;
+                    setInitialValue();
+
+                });
 
                 var setInitialValue = function() {
                     var m, d, h;
