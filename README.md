@@ -59,7 +59,7 @@ Include CSS and JS files in yout html file
 Include `angMdTimePicker` module dependency in your application
 
 ```
-  angular.module('myApp', ['ngMaterial', 'andMdTimePicker']);
+  angular.module('myApp', ['ngMaterial', 'angMdTimePicker']);
 
 ```
 
